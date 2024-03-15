@@ -5,7 +5,8 @@ body{
 .ti{
     width: 12%;
     height: 5%;
-    background-color: red
+    background-color: red;
+    margin: 0%
 
 }
 
@@ -49,7 +50,7 @@ body{
 nav{
     margin-top: -3.5%;
     height: 10%;
-    margin-top: 1.3%;
+    margin-bottom: 1.3%;
 }
 
 header{
@@ -58,19 +59,31 @@ header{
 }
 
 li:hover{
-    background-color: crimson;
-    color: white;
-    border: 5px solid purple;
+    background-color:red;
+    color: #fff;
+    border: 5px solid #900;
 }
 
 li{
     list-style: none;
     font-weight: bold;
     display: inline;
-    padding: 1% 4% 1% 4%;
-    border: 2px solid black;
-    background-color: white;
-    font-size: 15px;
+    padding: 1% 8% 1% 8%;
+    border: 2px solid white;
+    background-color: red;
+    font-size: 21px;
+}
+#gd1{
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    border: 2px solid #788;
+}
+ul{
+    display: inline;
+    margin-top: -1.8%;
+    margin-left: 4%;
 }
 
 
